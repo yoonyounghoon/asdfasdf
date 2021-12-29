@@ -3,7 +3,7 @@ import React from "react";
 import {useQuery} from "react-query";
 
 function Todos() {
-    const {} = useQuery("todoData", () =>
+    const {isLoading, error, data} = useQuery("todoData", () =>
         axios.get("https://jsonplaceholder.typicode.com/todos/1")
     );
 
