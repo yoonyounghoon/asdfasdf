@@ -8,7 +8,7 @@ function Todos() {
     );
 
     if (isLoading) {
-        return <p>"로딩 중...asdf"</p>;
+        return <p>"로딩 중...asdfasdf"</p>;
     }
 
     if (error) {
@@ -19,3 +19,4 @@ function Todos() {
 }
 
 export default Todos;
+asdfasdf
