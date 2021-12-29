@@ -8,7 +8,7 @@ function Todos() {
     );
 
     if (isLoading) {
-        return <p>"로딩 중...asdfasdf"</p>;
+        return <p>"로딩 중...asdfasdasdfasdff"</p>;
     }
 
     if (error) {
